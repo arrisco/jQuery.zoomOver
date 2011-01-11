@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+	width: 800px;
+    margin:0 auto;
+}
+
+h1{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.portuguese{
+    color: inherit;
+}
+
+.english{
+    color: gray;
+}
+
+.thumbnails{
+    width: 800px;
+    height: 100px;
+    margin:0 auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.thumbnails img{
+    border: 1px solid silver;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.opcoes{
+    width: 800px;
+    height: 100px;
+    margin:0 auto;
+    margin-top: 35px;
+}
+
+th{
+    background-color: #e9eff8;
+    padding: 3px;
+    border: 1px solid silver;
+}
+
+td{
+    border: 1px solid silver;
+    padding: 3px;
+}
+
+
+.diagrama{
+    width: 800px;
+    margin:0 auto;
+    margin-top: 35px;
+}
+
+.zoomImages{
+	text-align: center;
+}

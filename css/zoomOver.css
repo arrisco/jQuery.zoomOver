@@ -1,0 +1,4 @@
+.zoomOverContainer{
+	position: absolute;
+	z-index: 500;
+}

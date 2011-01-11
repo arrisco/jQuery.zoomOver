@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>jQuery - zoomOver</title>
+
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/zoomOver.css" type="text/css" media="all" />
+
+        <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+		<script type="text/javascript" src="js/jquery.zoomOver.js"></script>
+		
+		<script>
+        //<![CDATA[
+
+        
+            $(document).ready(function() {
+            	
+				$('.zoomImages img').zoomover();
+            	
+            }); // Fim do document ready
+
+
+
+            
+            
+            
+
+
+        //]]>
+        </script>
+		
+		
+
+</head>
+
+<body>
+
+         
+            <h1>Plugin jQuery</h1>
+        
+
+        
+                        <h2>jQuery.zoomOver</h2>
+        
+
+                        <h2><span class="portuguese">Instalação</span><br /><span class="english">Install</span></h2>
+                        <p class="portuguese">Para a instalação são necessários os seguintes ficheiros:</p>
+                        <ul>
+                            <li><a href="http://jquery.com/" target="_blank">jQuery</a> versão 1.4.4 ou superior (poderá funcionar com versões inferiores)</li>
+                            <li><a href="downloads/jquery.zoomOver.js">jquery.zoomOver.js</a> versão 0.0.1 ou superior</li>
+                            <li><a href="downloads/slideMosaic.css">zoomOver.css</a></li>
+                            <li><a href="downloads/jQuery.zoomOver.tar.gz">Exemplo completo</a></li>
+                        </ul>
+
+
+                        <h3>Inserir as referências no head</h3>
+
+                        <code>
+
+                            <span style="color: silver;">&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /&gt;<br />
+                            &lt;title&gt;jQuery - zoomOver&lt;/title&gt;<br />
+                            <br />
+                            &lt;link rel="stylesheet" href="css/style.css" type="text/css" media="all" /&gt;<br /></span>
+                            &lt;link rel="stylesheet" href="css/zoomOver.css" type="text/css" media="all" /&gt;<br />
+                            <br />
+                            &lt;script type="text/javascript" src="js/jquery-1.4.4.min.js"&gt;&lt;/script&gt;<br />
+                            &lt;script type="text/javascript" src="js/jquery.zoomOver.js"&gt;&lt;/script&gt;<br />
+
+                        </code>
+
+
+
+                        
+
+
+                        <h3>Opções</h3>
+                        As opções possíveis são indicadas na tabela abaixo. Poderão ser inseridas no link acima da seguinte forma:
+
+
+                    <h2>Demo</h2>
+        
+
+                    <div class="zoomImages">
+                        <img src="img/thumbs/01.jpg" alt="thumbnails" data-bigimage="img/01.jpg" />
+                        <img src="img/thumbs/02.jpg" alt="thumbnails" data-bigimage="img/02.jpg" />
+                        <img src="img/thumbs/03.jpg" alt="thumbnails" data-bigimage="img/03.jpg" />
+                        <img src="img/thumbs/04.jpg" alt="thumbnails" data-bigimage="img/04.jpg" />
+                    </div>
+
+ 
+
+                    
+
+
+
+					
+
+                    <table class="opcoes">
+                        <tr>
+                            <th><span class="portuguese">Opções</span> / <span class="english">Options</span></th>
+                            <th><span class="portuguese">Valor por defeito</span> / <span class="english">Default value</span></th>
+                            <th><span class="portuguese">Explicação</span> / <span class="english">Explanation</span></th>
+                        </tr>
+
+                        <tr>
+                            <td>currentImage</td>
+                            <td style="text-align: center;">''</td>
+                            <td>
+                                <p class="portuguese">Imagem que irá ser aumentada.</p>
+                                <p class="english">Image that will be zoomed.</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>animationUp</td>
+                            <td style="text-align: center;">100</td>
+                            <td>
+                                <p class="portuguese">Tempo de execução da animação de zoom.</p>
+                                <p class="english">Execution time for the zooming animation.</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>maxImageWidth</td>
+                            <td style="text-align: center;">300</td>
+                            <td>
+                                <p class="portuguese">Largura máxima para o imagem.</p>
+                                <p class="english">Maximun width of the zoomed image.</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>maxImageHeight</td>
+                            <td style="text-align: center;">300</td>
+                            <td>
+                                <p class="portuguese">Altura máxima da imagem.</p>
+                                <p class="english">Maximun height of the zoomed image.</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>mosaicTime</td>
+                            <td style="text-align: center;">200</td>
+                            <td>
+                                <p class="portuguese">Tempo de espera entre mosaicos. Valor em milésimos de segundo.</p>
+                                <p class="english">Delat between mosaics. In miliseconds.</p>
+                            </td>
+                        </tr>
+
+                    </table>
+
+
+        
+                <p>Copyright 2010 - Arrisco - publicidade e design, Lda</p>
+        
+
+</body>
+
+</html>
